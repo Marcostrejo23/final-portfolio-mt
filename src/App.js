@@ -5,10 +5,12 @@ import Header from "./Components/Header";
 
 function App() {
   return (
+    <>
     <Navbar />
-    <Header/>
+    <Header />
+    </>
 
-  )
-};
+  );
+}
 
 export default App;
