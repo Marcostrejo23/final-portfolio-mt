@@ -89,3 +89,9 @@ nav ul li {
   font-size: 3rem;
   color: black;
 }
+
+/*   Contacts    */
+.contacts{
+  background: var(--primary-blue);
+  padding: 0.3rem;
+}
