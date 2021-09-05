@@ -4,7 +4,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import {Route, Redirect, HashRouter } from 'react-router-dom';
 import About from './About';
  
-const Navbar = () => {
+function Navbar({currentPage, handlePageChange}) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className='container'>
@@ -17,25 +17,25 @@ const Navbar = () => {
         <ul className="navbar-nav mr-auto">
         <li className="nav-item active">
 
-        <a className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} "nav-link" href="#home"
-        onClick={()=> handlePageChange('Home')}
-        >Home<span className="sr-only">(current)</span></a>
+        <a className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} href="#home"
+        onClick={()=> handlePageChange('Home')}>Home<span className="sr-only">(current)</span></a>
         </li>
 
+        <li className="nav-item">
+        <a  
+        href="#Portfolio"
+        onClick={() => handlePageChange('Portfolio')}
+        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+        </li>
 
+        <li className="nav-item">
+        <a  href="#Contact"
+        onClick={() => handlePageChange('Contact')}
+        className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
 
-        
-        <li className="nav-item">
-        <a className="nav-link" href="#">About Me</a>
         </li>
         <li className="nav-item">
-        <a className="nav-link" href="#">Portfolio</a>
-        </li>
-        <li className="nav-item">
-        <a className="nav-link" href="#">Contact</a>
-        </li>
-        <li className="nav-item">
-        <a className="nav-link" href="#">Resume</a>
+        <a  className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} href="#Resume">Resume</a>
         </li>
         </ul>
         </div>
