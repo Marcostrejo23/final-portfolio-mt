@@ -32,7 +32,7 @@ export default function Contact() {
           <div className = "contacts">
             <div className="text-center">
               <h1>Feel Free to reach out</h1>
-              <p>Provide the information below</p>
+              <p>Please fill out the form and describe what you're looking for in your project and I will contact you as soon as possible</p>
             </div>
           </div>
         <div className="container">
