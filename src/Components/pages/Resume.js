@@ -1,5 +1,6 @@
 import React from 'react'
-import resume from "../images/CodingResume"
+import resume from "../images/CodingResume.pdf";
+
 export default function Resume(){
     return(
         <div className="container">
