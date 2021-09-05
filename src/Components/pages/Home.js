@@ -6,7 +6,7 @@ export default function Home(){
         <div className="container">
             <div className="text-center">
                 <h1>Who I am</h1>
-                <img src={me} className="img-fluid portrait" alt= "marcos trejo"> </img>
+                <img src={me} className="img-fluid portrait" alt= "marcos trejo" />
             </div>
         <p>
         I decided to pursue web development after years of being an entrepreneur. Web development being the future, 
