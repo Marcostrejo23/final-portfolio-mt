@@ -1,14 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import {Route, Redirect, HashRouter } from 'react-router-dom';
-import About from './About';
+// import {Route, Redirect, HashRouter } from 'react-router-dom';
+// import About from './About';
  
 function Navbar({currentPage, handlePageChange}) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className='container'>
-        <a className="navbar-brand">Marcos Trejo Portfolio</a>
+        <a className = "navbar-brand">Marcos Trejo Portfolio</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        <FontAwesomeIcon icon={faBars} style= {{color:'#fff' }}/>
         </button>
