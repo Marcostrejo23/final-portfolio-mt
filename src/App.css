@@ -6,6 +6,7 @@
   --primary-blue: #0984e3;
   --primary-green:#78e08f;
   --secondary-green: #0c2461;
+  
 }
 body {
 font-family:'Yanone Kaffeesatz', sans-serif;
@@ -68,7 +69,6 @@ nav ul li {
 /***********HEADER***********/
 .header-wrapper{
   position: relative;
-  background: url(../src/Components/images/IMG_0483.JPG);
   background-size: cover;
   background-position: center;
   height: 90vh;

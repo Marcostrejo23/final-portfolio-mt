@@ -34,6 +34,7 @@ function Navbar({currentPage, handlePageChange}) {
         className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
 
         </li>
+
         <li className="nav-item">
         <a  className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} href="#Resume">Resume</a>
         </li>

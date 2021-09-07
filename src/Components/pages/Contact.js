@@ -39,31 +39,16 @@ export default function Contact() {
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="row">
             <div className="col-md-6 col-xs-12">
-            <input id="name" type= "text" className="form-control"
-            placeholder="Name"
-            name="name"
-            />
-            {/* Phone Input */}
-            <input id="phone"type= "text" className="form-control"
-            placeholder="Phone"
-            name="phone"
-            />
-            {/* Email Input */}
-            <input id="email"type= "email" className="form-control"
-            placeholder="Email"
-            name="email"
-            />
-            {/* Subject Input */}
-            <input id="subject"type= "text" className="form-control"
-            placeholder="Subject"
-            name="subject"
-            />
+            <input id="name" type= "text" className="form-control" placeholder="Name" name="name"/>
+            <input id="phone"type= "text" className="form-control" placeholder="Phone" name="phone"/>
+           
+            <input id="email"type= "email" className="form-control" placeholder="Email" name="email"/>
+           
+            <input id="subject"type= "text" className="form-control" placeholder="Subject" name="subject"/>
             </div>
             <div className="col-md-6 col-xs-12">
-            <textarea id= "description" type= "text" className="form-control"
-            placeholder="Description"
-            name="description"
-            ></textarea>
+            <textarea id= "description" type= "text" className="form-control" placeholder="Description" name="description">
+            </textarea>
             <button className="btn-main-offer contact-btn" type="submit">Reach out</button>
             </div>
           </div>
