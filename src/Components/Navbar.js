@@ -1,8 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-// import {Route, Redirect, HashRouter } from 'react-router-dom';
-// import About from './About';
+
  
 function Navbar({currentPage, handlePageChange}) {
     return (
@@ -27,6 +26,12 @@ function Navbar({currentPage, handlePageChange}) {
         onClick={() => handlePageChange('Portfolio')}
         className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
         </li>
+        <li className="nav-item">
+        <a  
+        href="#About"
+        onClick={() => handlePageChange('About')}
+        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
+        </li>
 
         <li className="nav-item">
         <a  href="#Contact"
@@ -38,7 +43,7 @@ function Navbar({currentPage, handlePageChange}) {
         <li className="nav-item">
         <a  href="#Resume"
         onClick={() => handlePageChange('Resume')}
-        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} href="#Resume">Resume</a>
+        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
         </li>
         </ul>
         </div>
