@@ -203,6 +203,9 @@ nav ul li {
 }
 
 .img-thumbnail{
+  max-width: 100%;
+  height: auto;
+  display: flex;
   height: 500px;
   width: 500px;
 }
