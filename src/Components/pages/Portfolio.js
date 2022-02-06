@@ -2,6 +2,7 @@ import React from 'react';
 import password from '../images/PasswordGenerator.png';
 import weather from '../images/WeatherDashboard.png';
 import WorkDay from '../images/WorkDayScheduler.png';
+import Todolist from '../images/ToDolist.png';
 
 
 export default function Portfolio(){
@@ -14,16 +15,14 @@ export default function Portfolio(){
                 <div className='timeline-block timeline-block-right'>
                 <div className='marker'></div>
                 <div className='timeline-content'>
-                    <img className="img-fluid port=image"src={password} class= "img-thumbnail" alt="Password Generator"></img>
-                    <a href="https://github.com/Marcostrejo23/password-generator-mt">Password Generator</a>
+                    <img className="img-fluid port=image"src={Todolist} class= "img-thumbnail" alt="Todo List"></img>
+                    <a href="https://marcostrejo23.github.io/todo-list-v1/">Todo List</a>
                     <br />
-                    <p>Deployed Link: https://marcostrejo23.github.io/password-generator-mt/</p>
-                    <p>GitHub: https://github.com/Marcostrejo23/password-generator-mt</p>
-                    <p className='experience-text'>In this application, I used Javascript to create a simple password generator. 
-                    The Generator takes in if the user wants lowercase letters, uppercase letters, 
-                    special characters, and numbers. When the user clicks the generate password button, 
-                    they will be presented with prompts, and then returned a password based on the parameters 
-                    they selected.</p>
+                    <p>Deployed Link: https://marcostrejo23.github.io/todo-list-v1/</p>
+                    <p>GitHub: https://github.com/Marcostrejo23/todo-list-v1</p>
+                    <p className='experience-text'>This application was built for a user to organize a Todo list. 
+                    A user can add a todo, update that todo, and delete the todo.
+                    </p>
                 </div>
                 </div>
                 <div className='timeline-block timeline-block-left'>
@@ -55,6 +54,16 @@ export default function Portfolio(){
                 <div className='timeline-block timeline-block-left'>
                 <div className='marker'></div>
                 <div className='timeline-content'>
+                <img className="img-fluid port=image"src={password} class= "img-thumbnail" alt="Password Generator"></img>
+                <a href="https://github.com/Marcostrejo23/password-generator-mt">Password Generator</a>
+                <br />
+                <p>Deployed Link: https://marcostrejo23.github.io/password-generator-mt/</p>
+                <p>GitHub: https://github.com/Marcostrejo23/password-generator-mt</p>
+                <p className='experience-text'>In this application, I used Javascript to create a simple password generator. 
+                The Generator takes in if the user wants lowercase letters, uppercase letters, 
+                special characters, and numbers. When the user clicks the generate password button, 
+                they will be presented with prompts, and then returned a password based on the parameters 
+                they selected.</p>
                 </div>
                 </div>
             </div>
