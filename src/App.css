@@ -207,6 +207,13 @@ nav ul li {
   height: auto;
   display: flex;
 }
+.portfolioImage{
+  padding: 2rem;
+}
+
+.textContent{
+  padding: .4rem;
+}
 /*-------Footer---------*/
 
 .icon-container{
@@ -217,7 +224,6 @@ justify-content: center;
 .icon{
   padding: .4rem;
 }
-
 
 
 /*-------MEDIA---------*/
