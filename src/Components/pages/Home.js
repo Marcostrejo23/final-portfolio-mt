@@ -1,18 +1,27 @@
 import React from 'react';
-import me from '../images/MyPhoto.png';
+import Typed from 'react-typed';
 
 export default function Home(){
     return(
-        <div className="container">
-            <div className="text-center">
-                <h1>Who I am</h1>
-                <img src={me} className="img-fluid portrait" alt= "marcos trejo" />
+        <div className="home-wrapper">
+            <div className="main-info">
+               <h1>web developer</h1>
+               <Typed 
+                    className='typed-text'
+                    strings={["Web Design", "Web Development","Databases"]}
+                    typeSpeed={40}
+                    backSpeed={60}
+                    loop
+               />
+               <p className='home-text'>
+               Hello! My name is Marcos Trejo and I'm a beginner Javascript Developer. 
+               Here you will find examples of my work, about me, my resume, and how to reach out. 
+               If you think I am a good fit for your company or have any questions about my work, shoot me an email 
+               at Marcostrejo23@gmail.com.
+               </p>
+               <p>VS Code, HTML5, CS3, React.js, graph.ql, nodejs, sql, mysql, mongodb, github, terminal. These are the technologies I am comfortable working with currently, I am hoping to add Java to this list in 2022. </p>
             </div>
-        <p>
-        I decided to pursue web development after years of being an entrepreneur. Web development being the future, 
-     I wanted to have the know-how to compete in the market. When I'm not pursuing the knowledge of web development, 
-     I'm going crazy for Seattle sports, out in the woods looking for the next best photography spot, or at the cinemas keeping up with the latest films.
-        </p>
+       
         </div>
     )
 }

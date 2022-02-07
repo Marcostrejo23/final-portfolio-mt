@@ -31,8 +31,10 @@ export default function Contact() {
         <div className="container">
           <div className = "contacts">
             <div className="text-center">
-              <h1>Feel Free to reach out</h1>
-              <p>Please fill out the form and describe what you're looking for in your project and I will contact you as soon as possible</p>
+            <div className='contact-text'>
+            <h1>Feel Free to reach out</h1>
+            <p>Please fill out the form and describe what you're looking for in your project and I will contact you as soon as possible</p>
+            </div>
             </div>
           </div>
         <div className="container">
@@ -49,7 +51,7 @@ export default function Contact() {
             <div className="col-md-6 col-xs-12">
             <textarea id= "description" type= "text" className="form-control" placeholder="Description" name="description">
             </textarea>
-            <button className="btn-main-offer contact-btn" type="submit">Reach out</button>
+            <button type="button contact-btn" class="btn btn-outline-primary" type="submit">Reach out</button>
             </div>
           </div>
           </form>

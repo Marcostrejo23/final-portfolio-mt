@@ -92,12 +92,23 @@ nav ul li {
   color: black;
 }
 
-/*   Contacts    */
-.contacts{
-  background: var(--primary-blue);
-  padding: 0.3rem;
+.home-text{
+  display: flex;
+  align-items: center;
+  padding: 10rem;
+}
+/*-------TYPED TEXT ---------*/
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-green);
 }
 
+
+/*   Contacts    */
+.contacts{
+  background: var(--primary-green);
+  padding: 0.6rem;
+}
 
 .contacts input, .contacts textarea{
   width: 100%;
