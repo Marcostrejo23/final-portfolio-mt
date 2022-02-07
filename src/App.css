@@ -207,6 +207,19 @@ nav ul li {
   height: auto;
   display: flex;
 }
+/*-------Footer---------*/
+
+.icon-container{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.icon{
+  padding: .4rem;
+}
+
+
+
 /*-------MEDIA---------*/
 
 @media(max-width: 768px){
