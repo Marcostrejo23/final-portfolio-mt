@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import Footer from "./Footer";
 import About from "./About";
 
-export default function PortfolioContainer() {
+const PortfolioContainer =()=> {
   return (
     <Router>
       <div>
@@ -53,4 +53,6 @@ export default function PortfolioContainer() {
       </div>
     </Router>
   );
-}
+};
+
+export default PortfolioContainer;
