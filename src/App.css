@@ -1,17 +1,16 @@
 .App {
   text-align: center;
 }
-:root{
+:root {
   --primary-white: #fff;
   --primary-blue: #0984e3;
-  --primary-green:#78e08f;
+  --primary-green: #78e08f;
   --secondary-green: #0c2461;
-  --primary-grey:#ccd1d9;
+  --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
-  
 }
 body {
-font-family:'Yanone Kaffeesatz', sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 .App-logo {
@@ -51,39 +50,39 @@ font-family:'Yanone Kaffeesatz', sans-serif;
 /***********NAVBAR***********/
 nav a.nav-link {
   font-weight: 500;
-  letter-spacing: 0.0400rem;
+  letter-spacing: 0.04rem;
   cursor: pointer;
 }
 nav ul li {
   text-transform: lowercase;
 }
-.navbar-nav>li>a{
- color: var(--primary-green)  !important; 
- margin-right: 0.80rem;
+.navbar-nav > li > a {
+  color: var(--primary-green) !important;
+  margin-right: 0.8rem;
 }
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
-  border-top: .2000rem solid var(--primary-blue);
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.2rem solid var(--primary-blue);
 }
-.navbar-nav > li > a:hover{
-  border-top: .2000rem solid var(--primary-blue);
-
+.navbar-nav > li > a:hover {
+  border-top: 0.2rem solid var(--primary-blue);
 }
 /***********HEADER***********/
-.header-wrapper{
+.header-wrapper {
   position: relative;
   background-size: cover;
   background-position: center;
   height: 90vh;
 }
-.main-info{
+.main-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
-.main-info h1{
+.main-info h1 {
   color: var(--primary-white);
 }
 
@@ -92,31 +91,31 @@ nav ul li {
   color: black;
 }
 
-.home-text{
+.home-text {
   display: flex;
   align-items: center;
   padding: 10rem;
 }
 /*-------TYPED TEXT ---------*/
-.typed-text{
+.typed-text {
   font-size: 2rem;
   color: var(--primary-green);
 }
 
-
 /*   Contacts    */
-.contacts{
+.contacts {
   background: var(--primary-green);
   padding: 0.6rem;
 }
 
-.contacts input, .contacts textarea{
+.contacts input,
+.contacts textarea {
   width: 100%;
   box-sizing: border-box;
   background: none;
   resize: none;
   border: 0;
-  border-bottom: .125rem solid var(--secondary-green);
+  border-bottom: 0.125rem solid var(--secondary-green);
   border-radius: 0;
   color: var(--primary-blue);
   outline: 0 !important;
@@ -126,16 +125,17 @@ nav ul li {
   padding-left: 0rem !important;
 }
 
-.contacts .container{
+.contacts .container {
   padding: 4rem 0;
 }
-.contacts input:focus, .contacts textarea:focus{
+.contacts input:focus,
+.contacts textarea:focus {
   background: transparent;
   color: #61dafb;
   border-bottom: 0.125rem solid var(--primary-blue);
 }
 
-.contacts textarea{
+.contacts textarea {
   height: 10.4rem !important;
 }
 
@@ -146,50 +146,48 @@ nav ul li {
 
 /******EXPERIENCE******/
 
-.experience{
+.experience {
   padding: 0.7rem;
 }
 
-.experience-wrapper{
+.experience-wrapper {
   position: relative;
   padding: 3.125rem 0;
   overflow: hidden;
 }
 
-.experience h1{
+.experience h1 {
   text-transform: uppercase;
   color: var(--primary-green);
-
 }
 
-.experience-wrapper ::before{
+.experience-wrapper ::before {
   position: absolute;
   content: "";
   top: 0;
   left: 50%;
-  margin-left: -0,0625rem;
+  margin-left: -0, 0625rem;
   width: 0.125rem;
   height: 100%;
   background: var(--primary-grey);
 }
 
-.timeline-block{
+.timeline-block {
   width: calc(50% + 0.5rem);
-  display:flex;
+  display: flex;
   justify-content: space-between;
   clear: both;
 }
 
-.timeline-block-right{
+.timeline-block-right {
   float: right;
-  
 }
-.timeline-block-left{
+.timeline-block-left {
   float: left;
   direction: rtl;
 }
 
-.marker{
+.marker {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
@@ -199,48 +197,46 @@ nav ul li {
   z-index: 3;
 }
 
-.timeline-content{
+.timeline-content {
   width: 95%;
   padding: 0.09375rem;
   color: var(--primary-dark-grey);
   direction: ltr;
-
 }
 
-.timeline-content h3{
+.timeline-content h3 {
   margin-top: 0.3125rem;
   color: var(--primary-green);
   font-weight: 900;
 }
 
-.img-thumbnail{
+.img-thumbnail {
   max-width: 100%;
   height: auto;
   display: flex;
 }
-.portfolioImage{
+.portfolioImage {
   padding: 2rem;
 }
 
-.textContent{
-  padding: .4rem;
+.textContent {
+  padding: 0.4rem;
 }
 /*-------Footer---------*/
 
-.icon-container{
+.icon-container {
   display: flex;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-.icon{
-  padding: .4rem;
+.icon {
+  padding: 0.4rem;
 }
-
 
 /*-------MEDIA---------*/
 
-@media(max-width: 768px){
-  .experience-wrapper{
+@media (max-width: 768px) {
+  .experience-wrapper {
     padding-left: 0;
   }
 
@@ -249,7 +245,7 @@ justify-content: center;
     margin-bottom: 1.875rem;
   }
 
-  .timeline-block-right{
+  .timeline-block-right {
     float: none;
     width: 100%;
   }
@@ -258,5 +254,4 @@ justify-content: center;
     float: none;
     direction: ltr;
   }
-
 }
