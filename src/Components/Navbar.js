@@ -1,17 +1,18 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Navbar = ({ currentPage, handlePageChange }) => {
+const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <a
+        <Link
           className="navbar-brand"
-          href="https://www.linkedin.com/in/marcos-trejo-915923185/"
+          to="https://www.linkedin.com/in/marcos-trejo-915923185/"
         >
           Marcos Trejo Portfolio
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -27,62 +28,24 @@ const Navbar = ({ currentPage, handlePageChange }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a
-                className={
-                  currentPage === "Home" ? "nav-link active" : "nav-link"
-                }
-                href="#home"
-                onClick={() => handlePageChange("Home")}
-              >
+              <NavLink to="/Home">
                 Home<span className="sr-only">(current)</span>
-              </a>
+              </NavLink>
             </li>
 
             <li className="nav-item">
-              <a
-                href="#Portfolio"
-                onClick={() => handlePageChange("Portfolio")}
-                className={
-                  currentPage === "Portfolio" ? "nav-link active" : "nav-link"
-                }
-              >
-                Portfolio
-              </a>
+              <NavLink to="/Portfolio">Portfolio</NavLink>
             </li>
             <li className="nav-item">
-              <a
-                href="#About"
-                onClick={() => handlePageChange("About")}
-                className={
-                  currentPage === "About" ? "nav-link active" : "nav-link"
-                }
-              >
-                About
-              </a>
+              <NavLink to="/About">About</NavLink>
             </li>
 
             <li className="nav-item">
-              <a
-                href="#Contact"
-                onClick={() => handlePageChange("Contact")}
-                className={
-                  currentPage === "Contact" ? "nav-link active" : "nav-link"
-                }
-              >
-                Contact
-              </a>
+              <NavLink to="/Contact">Contact</NavLink>
             </li>
 
             <li className="nav-item">
-              <a
-                href="#Resume"
-                onClick={() => handlePageChange("Resume")}
-                className={
-                  currentPage === "Resume" ? "nav-link active" : "nav-link"
-                }
-              >
-                Resume
-              </a>
+              <NavLink to="/Resume">Resume</NavLink>
             </li>
           </ul>
         </div>
