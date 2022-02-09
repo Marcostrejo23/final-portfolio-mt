@@ -13,8 +13,6 @@ const PortfolioContainer = () => {
     <Router>
       <div>
         <NavBar />
-        <Footer />
-
         <Switch>
           <Route path="/About">
             <About />
@@ -32,6 +30,7 @@ const PortfolioContainer = () => {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
