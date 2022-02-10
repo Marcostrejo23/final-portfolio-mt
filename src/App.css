@@ -5,23 +5,12 @@
   --primary-white: #fff;
   --primary-blue: #0984e3;
   --primary-green: #78e08f;
-  --secondary-green: #0c2461;
+  --secondary-blue: #0c2461;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
 }
 body {
   font-family: "Yanone Kaffeesatz", sans-serif;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -39,14 +28,6 @@ body {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 /***********NAVBAR***********/
 nav a.nav-link {
   font-weight: 500;
@@ -115,7 +96,7 @@ nav ul li {
   background: none;
   resize: none;
   border: 0;
-  border-bottom: 0.125rem solid var(--secondary-green);
+  border-bottom: 0.125rem solid var(--secondary-blue);
   border-radius: 0;
   color: var(--primary-blue);
   outline: 0 !important;
@@ -146,17 +127,17 @@ nav ul li {
 
 /******EXPERIENCE******/
 
-.experience {
-  padding: 0.7rem;
+.experience-container {
+  padding: 5rem;
 }
 
 .experience-wrapper {
   position: relative;
-  padding: 3.125rem 0;
+  padding: .125rem 0;
   overflow: hidden;
 }
 
-.experience h1 {
+.experience-h1 {
   text-transform: uppercase;
   color: var(--primary-green);
 }
@@ -187,16 +168,6 @@ nav ul li {
   direction: rtl;
 }
 
-.marker {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  border: 0.3125 solid var(--primary-dark-grey);
-  background: var(--primary-blue);
-  margin-top: 0.625rem;
-  z-index: 3;
-}
-
 .timeline-content {
   width: 95%;
   padding: 0.09375rem;
@@ -219,8 +190,13 @@ nav ul li {
   padding: 2rem;
 }
 
-.textContent {
-  padding: 0.4rem;
+.portfolio-textContent {
+  position: relative;
+  padding: .8rem;
+  border: 1rem;
+  border-style: solid;
+  border-radius: .9rem;
+  border-color: #00B4D8;
 }
 /*-------Footer---------*/
 
@@ -253,5 +229,8 @@ nav ul li {
   .timeline-block-left {
     float: none;
     direction: ltr;
+  }
+  .marker {
+    width: 0%;
   }
 }

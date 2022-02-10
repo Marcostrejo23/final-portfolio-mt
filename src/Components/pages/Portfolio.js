@@ -8,9 +8,9 @@ const Portfolio = () => {
   return (
     <div className="experience-container">
       <div className="d-flex justify-content-center my-5">
-        <h1>My Work so far</h1>
+        <h1 className="experience-h1">My Work so far</h1>
       </div>
-      <div className="container experience-wrapper">
+      <div className="experience-wrapper">
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
@@ -22,11 +22,11 @@ const Portfolio = () => {
                 alt="Todo List"
               ></img>
             </div>
-            <a href="https://marcostrejo23.github.io/todo-list-v1/">
-              Todo List
-            </a>
-            <br />
-            <div className="textContent">
+            <div className="portfolio-textContent">
+              <a href="https://marcostrejo23.github.io/todo-list-v1/">
+                Todo List
+              </a>
+              <br />
               <p>
                 Deployed Link: https://marcostrejo23.github.io/todo-list-v1/
               </p>
@@ -50,11 +50,11 @@ const Portfolio = () => {
                 alt="Weather Dashboard "
               ></img>
             </div>
-            <a href="https://github.com/Marcostrejo23/weather-api-mt">
-              Weather Dashboard
-            </a>
-            <br />
-            <div className="textContent">
+            <div className="portfolio-textContent">
+              <a href="https://github.com/Marcostrejo23/weather-api-mt">
+                Weather Dashboard
+              </a>
+              <br />
               <p>
                 Deployed Link: https://github.com/Marcostrejo23/weather-api-mt
               </p>
@@ -80,11 +80,11 @@ const Portfolio = () => {
                 alt="WorkDay scheduler"
               ></img>
             </div>
-            <a href="https://github.com/Marcostrejo23/workday-calendar-mt">
-              WorkDay Scheduler
-            </a>
-            <br />
-            <div className="textContent">
+            <div className="portfolio-textContent">
+              <a href="https://github.com/Marcostrejo23/workday-calendar-mt">
+                WorkDay Scheduler
+              </a>
+              <br />
               <p>
                 Deployed Link:
                 https://marcostrejo23.github.io/workday-calendar-mt/
@@ -113,11 +113,11 @@ const Portfolio = () => {
                 alt="Password Generator"
               ></img>
             </div>
-            <a href="https://github.com/Marcostrejo23/password-generator-mt">
-              Password Generator
-            </a>
-            <br />
-            <div className="textContent">
+            <div className="portfolio-textContent">
+              <a href="https://github.com/Marcostrejo23/password-generator-mt">
+                Password Generator
+              </a>
+              <br />
               <p>
                 Deployed Link:
                 https://marcostrejo23.github.io/password-generator-mt/
