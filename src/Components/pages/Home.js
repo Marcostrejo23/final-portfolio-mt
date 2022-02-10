@@ -20,7 +20,7 @@ const Home = () => {
           company or have any questions about my work, shoot me an email at
           Marcostrejo23@gmail.com.
         </p>
-        <p>
+        <p className="home-text">
           VS Code, HTML5, CS3, React.js, graph.ql, nodejs, sql, mysql, mongodb,
           github, terminal. These are the technologies I am comfortable working
           with currently, I am hoping to add Java to this list in 2022.{" "}

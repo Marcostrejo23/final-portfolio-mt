@@ -9,7 +9,9 @@ const Navbar = () => {
       <div className="container">
         <Link
           className="navbar-brand"
-          to="https://www.linkedin.com/in/marcos-trejo-915923185/" target={"_blank"}  rel="noopener noreferrer"
+          to="https://www.linkedin.com/in/marcos-trejo-915923185/"
+          rel='noopener noreferrer'
+          target="_blank"
         >
           Marcos Trejo Portfolio
         </Link>

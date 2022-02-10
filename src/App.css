@@ -73,9 +73,13 @@ nav ul li {
 }
 
 .home-text {
-  display: flex;
-  align-items: center;
-  padding: 10rem;
+  border: 0.3rem #00b4d8;
+  width: 50rem;
+  border-style: solid;
+  border-radius: 0.9rem;
+  padding: 2rem;
+  margin: 3rem;
+  color: var(--primary-green);
 }
 /*-------TYPED TEXT ---------*/
 .typed-text {
@@ -85,8 +89,10 @@ nav ul li {
 
 /*   Contacts    */
 .contacts {
-  background: var(--primary-green);
+  background: #FDEFF4;
+  border-radius: 5rem;
   padding: 0.6rem;
+  color: var(--primary-green);
 }
 
 .contacts input,
@@ -103,6 +109,7 @@ nav ul li {
   box-shadow: none !important;
   top: 0;
   margin-bottom: 1rem;
+  padding: 2rem;
   padding-left: 0rem !important;
 }
 
@@ -124,6 +131,30 @@ nav ul li {
   margin: 1rem 0 0 0;
   width: auto;
 }
+/******RESUME******/
+.resume-container{
+  padding: 3rem;
+  margin: 3rem;
+  border: solid var(--primary-blue);
+  border-radius: 24rem;
+  color: var(--primary-green);
+}
+
+/******ABOUT******/
+.about-text {
+  padding: 2rem;
+  color: var(--primary-green);
+}
+.about-description {
+  color: var(--primary-green);
+  border: solid #00B4D8;
+  display: grid;
+  place-items: center;
+  padding: 1.3rem;
+  margin: auto;
+  width: 30rem;
+  border-radius: 2rem;
+}
 
 /******EXPERIENCE******/
 
@@ -133,7 +164,7 @@ nav ul li {
 
 .experience-wrapper {
   position: relative;
-  padding: .125rem 0;
+  padding: 0.125rem 0;
   overflow: hidden;
 }
 
@@ -192,11 +223,12 @@ nav ul li {
 
 .portfolio-textContent {
   position: relative;
-  padding: .8rem;
+  padding: 0.8rem;
   border: 1rem;
   border-style: solid;
-  border-radius: .9rem;
-  border-color: #00B4D8;
+  color: var(--primary-green);
+  border-radius: 0.9rem;
+  border-color: #00b4d8;
 }
 /*-------Footer---------*/
 

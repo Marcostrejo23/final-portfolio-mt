@@ -28,9 +28,25 @@ const Portfolio = () => {
               </a>
               <br />
               <p>
-                Deployed Link: https://marcostrejo23.github.io/todo-list-v1/
+                Deployed Link:{" "}
+                <a
+                  href="https://marcostrejo23.github.io/todo-list-v1/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://marcostrejo23.github.io/todo-list-v1/
+                </a>
               </p>
-              <p>GitHub: https://github.com/Marcostrejo23/todo-list-v1</p>
+              <p>
+                GitHub:{" "}
+                <a
+                  href="https://github.com/Marcostrejo23/todo-list-v1"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://github.com/Marcostrejo23/todo-list-v1
+                </a>
+              </p>
               <p className="experience-text">
                 This application was built for a user to organize a Todo list. A
                 user can add a todo, update that todo, and delete the todo. This
@@ -56,9 +72,25 @@ const Portfolio = () => {
               </a>
               <br />
               <p>
-                Deployed Link: https://github.com/Marcostrejo23/weather-api-mt
+                Deployed Link:{" "}
+                <a
+                  href="https://github.com/Marcostrejo23/weather-api-mt"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://github.com/Marcostrejo23/weather-api-mt
+                </a>
               </p>
-              <p>GitHub: https://github.com/Marcostrejo23/weather-api-mt</p>
+              <p>
+                GitHub:{" "}
+                <a
+                  href="https://github.com/Marcostrejo23/weather-api-mt"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://github.com/Marcostrejo23/weather-api-mt
+                </a>
+              </p>
               <p className="experience-text">
                 This application was built to show a user today's weather and a
                 five day forecast. When the page opens the user will view a
@@ -86,11 +118,24 @@ const Portfolio = () => {
               </a>
               <br />
               <p>
-                Deployed Link:
-                https://marcostrejo23.github.io/workday-calendar-mt/
+                Deployed Link:{" "}
+                <a
+                  href="https://marcostrejo23.github.io/workday-calendar-mt/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://marcostrejo23.github.io/workday-calendar-mt/
+                </a>
               </p>
               <p>
-                GitHub: https://github.com/Marcostrejo23/workday-calendar-mt
+                GitHub:{" "}
+                <a
+                  href="https://github.com/Marcostrejo23/workday-calendar-mt"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://github.com/Marcostrejo23/workday-calendar-mt
+                </a>
               </p>
               <p>
                 this is a working calendar to use for the average workday. Meant
@@ -119,11 +164,24 @@ const Portfolio = () => {
               </a>
               <br />
               <p>
-                Deployed Link:
-                https://marcostrejo23.github.io/password-generator-mt/
+              Deployed Link:{" "}
+              <a
+                href=" https://marcostrejo23.github.io/password-generator-mt/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+              https://marcostrejo23.github.io/password-generator-mt/
+              </a>
               </p>
               <p>
-                GitHub: https://github.com/Marcostrejo23/password-generator-mt
+              GitHub:{" "}
+              <a
+                href="https://github.com/Marcostrejo23/password-generator-mt"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+              https://github.com/Marcostrejo23/password-generator-mt
+              </a>
               </p>
               <p className="experience-text">
                 In this application, I used Javascript to create a simple
