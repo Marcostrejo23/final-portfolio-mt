@@ -223,11 +223,11 @@ nav ul li {
 
 .portfolio-textContent {
   position: relative;
-  padding: 0.8rem;
-  border: 1rem;
+  padding: 1rem;
+  border: .3rem;
   border-style: solid;
   color: var(--primary-green);
-  border-radius: 0.9rem;
+  border-radius: 2rem;
   border-color: #00b4d8;
 }
 /*-------Footer---------*/
