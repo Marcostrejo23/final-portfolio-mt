@@ -7,14 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <Link
-          className="navbar-brand"
-          to="https://www.linkedin.com/in/marcos-trejo-915923185/"
-          rel='noopener noreferrer'
-          target="_blank"
-        >
-          Marcos Trejo Portfolio
-        </Link>
+        <Link className="navbar-brand">Marcos Trejo Portfolio</Link>
         <button
           className="navbar-toggler"
           type="button"
