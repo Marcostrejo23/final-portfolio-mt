@@ -3,7 +3,7 @@ import Typed from "react-typed";
 
 const Home = () => {
   return (
-    <div className="home-wrapper">
+    <div className="home-container">
       <div className="main-info">
         <h1>web developer</h1>
         <Typed

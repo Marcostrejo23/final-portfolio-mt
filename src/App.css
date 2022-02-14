@@ -11,6 +11,7 @@
 }
 body {
   font-family: "Yanone Kaffeesatz", sans-serif;
+
 }
 
 .App-header {
@@ -57,11 +58,11 @@ nav ul li {
 }
 .main-info {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  /* text-align: center; */
 }
 .main-info h1 {
   color: var(--primary-white);
@@ -81,6 +82,7 @@ nav ul li {
   margin: 3rem;
   color: var(--primary-green);
 }
+
 /*-------TYPED TEXT ---------*/
 .typed-text {
   font-size: 2rem;
