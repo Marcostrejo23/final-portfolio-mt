@@ -89,6 +89,13 @@ nav ul li {
   margin-bottom: 7rem;
   color: var(--primary-green);
 }
+@media (max-width: 768px) {
+  .home-text{  
+    width: 80%;
+  }
+  
+}
+
 
 /*-------TYPED TEXT ---------*/
 .typed-text {
@@ -142,14 +149,18 @@ nav ul li {
 }
 /******RESUME******/
 .resume-container {
-  padding: 3rem;
-  margin: 3rem;
+  padding: 2rem;
+  margin: 2rem;
   border: solid var(--primary-blue);
   border-radius: 24rem;
   color: var(--primary-green);
 }
 
+
 /******ABOUT******/
+.about-container{
+ justify-content: center;
+}
 .about-text {
   padding: 2rem;
   color: var(--primary-green);
@@ -167,10 +178,21 @@ nav ul li {
   margin-top: 1rem;
 }
 
-/******EXPERIENCE******/
-.experience{
-  padding: 5rem;
+@media (max-width: 768px) {
+  .about-container{
+    width: 100%;
+    justify-content: center;
+  }
+  .about-description{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+  }
+
+
 }
+
+/******EXPERIENCE******/
 
 .experience-wrapper {
   position: relative;
@@ -199,6 +221,7 @@ nav ul li {
   display: flex;
   justify-content: space-between;
   clear: both;
+  margin-bottom: 3rem;
 }
 
 .timeline-block-right {
@@ -210,7 +233,7 @@ nav ul li {
 }
 .timeline-content {
   width: 95%;
-  padding: 0.09375rem;
+  /* padding: 0.09375rem; */
   color: var(--primary-dark-grey);
   direction: ltr;
 }
@@ -245,7 +268,6 @@ width: 1rem;
   flex-direction: column;
   justify-content: space-around;
   position: relative;
-  padding: 1rem;
   border: 0.3rem;
   border-style: solid;
   color: var(--primary-green);
@@ -264,13 +286,6 @@ width: 1rem;
 }
 
 /*-------MEDIA---------*/
-
-@media (max-width: 768px) {
-  .home-text{  
-    width: 80%;
-  }
-  
-}
 
 @media(max-width: 768px) {
   .container-experience-wrapper {
