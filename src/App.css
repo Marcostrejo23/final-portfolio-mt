@@ -11,7 +11,6 @@
 }
 body {
   font-family: "Yanone Kaffeesatz", sans-serif;
-
 }
 
 .App-header {
@@ -73,6 +72,13 @@ nav ul li {
   color: black;
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+}
+
 .home-text {
   border: 0.3rem #00b4d8;
   width: 50rem;
@@ -80,6 +86,7 @@ nav ul li {
   border-radius: 0.9rem;
   padding: 2rem;
   margin: 3rem;
+  margin-bottom: 7rem;
   color: var(--primary-green);
 }
 
@@ -91,7 +98,7 @@ nav ul li {
 
 /*   Contacts    */
 .contacts {
-  background: #FDEFF4;
+  background: #fdeff4;
   border-radius: 5rem;
   padding: 0.6rem;
   color: var(--primary-green);
@@ -134,7 +141,7 @@ nav ul li {
   width: auto;
 }
 /******RESUME******/
-.resume-container{
+.resume-container {
   padding: 3rem;
   margin: 3rem;
   border: solid var(--primary-blue);
@@ -149,7 +156,7 @@ nav ul li {
 }
 .about-description {
   color: var(--primary-green);
-  border: solid #00B4D8;
+  border: solid #00b4d8;
   display: grid;
   place-items: center;
   padding: 1.3rem;
@@ -228,7 +235,7 @@ nav ul li {
 .portfolio-textContent {
   position: relative;
   padding: 1rem;
-  border: .3rem;
+  border: 0.3rem;
   border-style: solid;
   color: var(--primary-green);
   border-radius: 2rem;
@@ -269,4 +276,8 @@ nav ul li {
   .marker {
     width: 0%;
   }
+  .home-text{  
+    width: 80%;
+  }
 }
+
