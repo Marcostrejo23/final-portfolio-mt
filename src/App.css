@@ -105,8 +105,7 @@ nav ul li {
 
 /*   Contacts    */
 .contacts {
-  background: #fdeff4;
-  border-radius: 5rem;
+  margin-top: 1rem;
   padding: 0.6rem;
   color: var(--primary-green);
 }
