@@ -195,8 +195,9 @@ nav ul li {
 
 .experience-wrapper {
   position: relative;
-  padding: 0.125rem 0;
+  padding: 0.125rem;
   overflow: hidden;
+  margin: 1rem;
 }
 
 .experience-h1 {
@@ -267,6 +268,8 @@ width: 1rem;
   flex-direction: column;
   justify-content: space-around;
   position: relative;
+  padding:.5rem;
+  margin: .5rem;
   border: 0.3rem;
   border-style: solid;
   color: var(--primary-green);
