@@ -1,5 +1,6 @@
 .about-container{
     justify-content: center;
+    background-color: #19282F;
    }
    .about-text {
      padding: 2rem;
@@ -17,7 +18,9 @@
      margin-bottom: 5rem;
      margin-top: 1rem;
    }
-   
+   .img-fluid-portrait{
+     border-radius: 3rem;
+   }
    @media (max-width: 768px) {
      .about-container{
        width: 100%;
@@ -27,6 +30,9 @@
        display: flex;
        justify-content: center;
        width: fit-content;
+     }
+     .img-fluid-portrait {
+       
      }
    }
    

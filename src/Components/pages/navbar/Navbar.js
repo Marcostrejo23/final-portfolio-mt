@@ -6,7 +6,7 @@ import '../navbar/styles.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light text-white bg-dark">
       <div className="container">
         <span className="navbar-brand">Marcos Trejo Portfolio</span>
         <button

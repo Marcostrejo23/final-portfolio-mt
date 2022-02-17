@@ -3,6 +3,7 @@
   padding: 0.125rem;
   overflow: hidden;
   margin: 1rem;
+  background-color: #19282F;
 }
 
 .experience-h1 {
@@ -10,7 +11,7 @@
   color: var(--primary-green);
 }
 
-.experience-wrapper ::before {
+.experience-wrapper::before {
   position: absolute;
   content: "";
   top: 0;

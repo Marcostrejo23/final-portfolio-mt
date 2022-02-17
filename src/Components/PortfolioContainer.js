@@ -10,6 +10,7 @@ import About from "../Components/pages/about/About";
 
 const PortfolioContainer = () => {
   return (
+    
     <Router>
       <div>
         <NavBar />
