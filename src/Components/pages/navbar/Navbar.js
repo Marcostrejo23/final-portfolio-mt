@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light text-white bg-dark">
       <div className="container">
-        <span className="navbar-brand">Marcos Trejo Portfolio</span>
+        <span className="navbar-brand text-white">Marcos Trejo Portfolio</span>
         <button
           className="navbar-toggler"
           type="button"
