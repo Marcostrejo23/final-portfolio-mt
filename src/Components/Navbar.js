@@ -1,13 +1,14 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import './pages/navbar/styles.css';
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <Link className="navbar-brand">Marcos Trejo Portfolio</Link>
+        <span className="navbar-brand">Marcos Trejo Portfolio</span>
         <button
           className="navbar-toggler"
           type="button"

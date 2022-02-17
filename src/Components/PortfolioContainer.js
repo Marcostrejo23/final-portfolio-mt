@@ -4,7 +4,7 @@ import NavBar from "./Navbar";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import Contact from "./pages/contact";
 import Footer from "./Footer";
 import About from "./About";
 
