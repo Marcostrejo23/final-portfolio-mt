@@ -1,0 +1,123 @@
+.experience-wrapper {
+  position: relative;
+  padding: 0.125rem;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.experience-h1 {
+  text-transform: uppercase;
+  color: var(--primary-green);
+}
+
+.experience-wrapper ::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0, 0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-grey);
+}
+
+.timeline-block {
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+  margin-bottom: 3rem;
+}
+
+.timeline-block-right {
+  float: right;
+}
+.timeline-block-left {
+  float: left;
+  direction: rtl;
+}
+.timeline-content {
+  width: 95%;
+  /* padding: 0.09375rem; */
+  color: var(--primary-dark-grey);
+  direction: ltr;
+}
+.marker {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--primary-green);
+  background-color: var(--primary-dark-grey);
+  margin-top: 0.625rem;
+}
+
+.timeline-content h3 {
+  margin-top: 0.3125rem;
+  color: var(--primary-green);
+  font-weight: 900;
+}
+
+.img-thumbnail {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+}
+.portfolioImage {
+  padding: 2rem;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-textContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 0.3rem;
+  border-style: solid;
+  color: var(--primary-green);
+  border-radius: 2rem;
+  border-color: #00b4d8;
+}
+.portfolioHyperLink {
+  overflow-wrap: break-word;
+}
+
+/*-------MEDIA---------*/
+
+@media (max-width: 768px) {
+  .container-experience-wrapper {
+    padding-left: 0;
+  }
+
+  .container-experience-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+
+  .timeline-block-left {
+    float: none;
+    direction: ltr;
+  }
+  .marker {
+    width: 0%;
+  }
+  .portfolio-textContent {
+    width: 60%;
+  }
+  .marker {
+    width: 50%;
+  }
+
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+}

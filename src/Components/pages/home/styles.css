@@ -1,0 +1,55 @@
+/***********HEADER***********/
+.header-wrapper {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+  }
+  .main-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+  }
+  .main-info h1 {
+    color: var(--primary-white);
+  }
+  
+  .typed-text {
+    font-size: 3rem;
+    color: black;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  
+  }
+  
+  .home-text {
+    border: 0.3rem #00b4d8;
+    width: 50rem;
+    border-style: solid;
+    border-radius: 0.9rem;
+    padding: 2rem;
+    margin: 3rem;
+    margin-bottom: 7rem;
+    color: var(--primary-green);
+  }
+  @media (max-width: 768px) {
+    .home-text{  
+      width: 80%;
+    }
+    
+  }
+  
+  
+  /*-------TYPED TEXT ---------*/
+  .typed-text {
+    font-size: 2rem;
+    color: var(--primary-green);
+  }
+  
