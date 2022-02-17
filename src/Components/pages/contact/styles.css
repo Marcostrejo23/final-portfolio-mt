@@ -1,0 +1,42 @@
+.contacts {
+    margin-top: 1rem;
+    padding: 0.6rem;
+    color: var(--primary-green);
+  }
+  
+  .contacts input,
+  .contacts textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 0.125rem solid var(--secondary-blue);
+    border-radius: 0;
+    color: var(--primary-blue);
+    outline: 0 !important;
+    box-shadow: none !important;
+    top: 0;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    padding-left: 0rem !important;
+  }
+  
+  .contacts .container {
+    padding: 4rem 0;
+  }
+  .contacts input:focus,
+  .contacts textarea:focus {
+    background: transparent;
+    color: #61dafb;
+    border-bottom: 0.125rem solid var(--primary-blue);
+  }
+  
+  .contacts textarea {
+    height: 10.4rem !important;
+  }
+  
+  .contact-btn {
+    margin: 1rem 0 0 0;
+    width: auto;
+  }

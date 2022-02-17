@@ -1,8 +1,9 @@
 import React from "react";
-import password from "../images/PasswordGenerator.png";
-import weather from "../images/WeatherDashboard.png";
-import WorkDay from "../images/WorkDayScheduler.png";
-import Todolist from "../images/ToDolist.png";
+import password from "../../images/PasswordGenerator.png";
+import weather from "../../images/WeatherDashboard.png";
+import WorkDay from "../../images/WorkDayScheduler.png";
+import Todolist from "../../images/ToDolist.png";
+import "../portfolio/styles.css";
 
 const Portfolio = () => {
   return (
@@ -18,18 +19,18 @@ const Portfolio = () => {
               <img
                 className="img-fluid port=image"
                 src={Todolist}
-                class="img-thumbnail"
                 alt="Todo List"
               ></img>
             </div>
             <div className="portfolio-textContent">
-              <a href="https://marcostrejo23.github.io/todo-list-v1/">
+              <a href="https://marcostrejo23.github.io/todo-list-v 1/">
                 Todo List
               </a>
               <br />
               <p>
                 Deployed Link:{" "}
                 <a
+                  className="portfolioHyperLink"
                   href="https://marcostrejo23.github.io/todo-list-v1/"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -40,6 +41,7 @@ const Portfolio = () => {
               <p>
                 GitHub:{" "}
                 <a
+                  className="portfolioHyperLink"
                   href="https://github.com/Marcostrejo23/todo-list-v1"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -62,7 +64,6 @@ const Portfolio = () => {
               <img
                 className="img-fluid port=image "
                 src={weather}
-                class="img-thumbnail"
                 alt="Weather Dashboard "
               ></img>
             </div>
@@ -74,6 +75,7 @@ const Portfolio = () => {
               <p>
                 Deployed Link:{" "}
                 <a
+                  className="portfolioHyperLink"
                   href="https://github.com/Marcostrejo23/weather-api-mt"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -84,6 +86,7 @@ const Portfolio = () => {
               <p>
                 GitHub:{" "}
                 <a
+                  className="portfolioHyperLink"
                   href="https://github.com/Marcostrejo23/weather-api-mt"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -108,7 +111,6 @@ const Portfolio = () => {
               <img
                 className="img-fluid port=image"
                 src={WorkDay}
-                class="img-thumbnail"
                 alt="WorkDay scheduler"
               ></img>
             </div>
@@ -120,6 +122,7 @@ const Portfolio = () => {
               <p>
                 Deployed Link:{" "}
                 <a
+                  className="portfolioHyperLink"
                   href="https://marcostrejo23.github.io/workday-calendar-mt/"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -130,6 +133,7 @@ const Portfolio = () => {
               <p>
                 GitHub:{" "}
                 <a
+                  className="portfolioHyperLink"
                   href="https://github.com/Marcostrejo23/workday-calendar-mt"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -154,7 +158,6 @@ const Portfolio = () => {
               <img
                 className="img-fluid port=image"
                 src={password}
-                class="img-thumbnail"
                 alt="Password Generator"
               ></img>
             </div>
@@ -164,24 +167,26 @@ const Portfolio = () => {
               </a>
               <br />
               <p>
-              Deployed Link:{" "}
-              <a
-                href=" https://marcostrejo23.github.io/password-generator-mt/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-              https://marcostrejo23.github.io/password-generator-mt/
-              </a>
+                Deployed Link:{" "}
+                <a
+                  className="portfolioHyperLink"
+                  href=" https://marcostrejo23.github.io/password-generator-mt/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://marcostrejo23.github.io/password-generator-mt/
+                </a>
               </p>
               <p>
-              GitHub:{" "}
-              <a
-                href="https://github.com/Marcostrejo23/password-generator-mt"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-              https://github.com/Marcostrejo23/password-generator-mt
-              </a>
+                GitHub:{" "}
+                <a
+                  className="portfolioHyperLink"
+                  href="https://github.com/Marcostrejo23/password-generator-mt"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  https://github.com/Marcostrejo23/password-generator-mt
+                </a>
               </p>
               <p className="experience-text">
                 In this application, I used Javascript to create a simple

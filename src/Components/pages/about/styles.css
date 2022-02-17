@@ -1,0 +1,32 @@
+.about-container{
+    justify-content: center;
+   }
+   .about-text {
+     padding: 2rem;
+     color: var(--primary-green);
+   }
+   .about-description {
+     color: var(--primary-green);
+     border: solid #00b4d8;
+     display: grid;
+     place-items: center;
+     padding: 1.3rem;
+     margin: auto;
+     width: 30rem;
+     border-radius: 2rem;
+     margin-bottom: 5rem;
+     margin-top: 1rem;
+   }
+   
+   @media (max-width: 768px) {
+     .about-container{
+       width: 100%;
+       justify-content: center;
+     }
+     .about-description{
+       display: flex;
+       justify-content: center;
+       width: fit-content;
+     }
+   }
+   
