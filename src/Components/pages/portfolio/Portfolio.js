@@ -23,10 +23,7 @@ const Portfolio = () => {
               ></img>
             </div>
             <div className="portfolio-textContent">
-              <a href="https://marcostrejo23.github.io/todo-list-v 1/">
-                Todo List
-              </a>
-              <br />
+              <p>To-do List</p>
               <p>
                 Deployed Link:{" "}
                 <a
@@ -68,10 +65,7 @@ const Portfolio = () => {
               ></img>
             </div>
             <div className="portfolio-textContent">
-              <a href="https://github.com/Marcostrejo23/weather-api-mt">
-                Weather Dashboard
-              </a>
-              <br />
+              <p>Weather Dashboard</p>
               <p>
                 Deployed Link:{" "}
                 <a
@@ -115,10 +109,8 @@ const Portfolio = () => {
               ></img>
             </div>
             <div className="portfolio-textContent">
-              <a href="https://github.com/Marcostrejo23/workday-calendar-mt">
-                WorkDay Scheduler
-              </a>
-              <br />
+              <p> Workday Scheduler
+              </p>
               <p>
                 Deployed Link:{" "}
                 <a
@@ -162,10 +154,7 @@ const Portfolio = () => {
               ></img>
             </div>
             <div className="portfolio-textContent">
-              <a href="https://github.com/Marcostrejo23/password-generator-mt">
-                Password Generator
-              </a>
-              <br />
+          <p>Password Generator</p>
               <p>
                 Deployed Link:{" "}
                 <a

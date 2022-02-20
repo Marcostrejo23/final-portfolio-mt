@@ -20,6 +20,7 @@
   width: 0.125rem;
   height: 100%;
   background: var(--primary-grey);
+  z-index: 1;
 }
 
 .timeline-block {
