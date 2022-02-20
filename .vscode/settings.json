@@ -7,5 +7,6 @@
         "noopener",
         "paxpr",
         "Todolist"
-    ]
+    ],
+    "editor.formatOnSave": true
 }
