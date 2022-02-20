@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import '../home/styles.css';
+import "../home/styles.css";
 const Home = () => {
   return (
     <div className="home-container">

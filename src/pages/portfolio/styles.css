@@ -3,7 +3,6 @@
   padding: 0.125rem;
   overflow: hidden;
   margin: 1rem;
-  background-color: #19282f;
 }
 
 .experience-h1 {
@@ -34,16 +33,18 @@
 .timeline-block-right {
   float: right;
 }
+
 .timeline-block-left {
   float: left;
   direction: rtl;
 }
+
 .timeline-content {
   width: 95%;
-  /* padding: 0.09375rem; */
   color: var(--primary-dark-grey);
   direction: ltr;
 }
+
 .marker {
   width: 1rem;
   height: 1rem;
@@ -64,6 +65,7 @@
   height: auto;
   display: flex;
 }
+
 .portfolioImage {
   padding: 2rem;
   width: 100%;
@@ -83,6 +85,7 @@
   border-radius: 2rem;
   border-color: #00b4d8;
 }
+
 .portfolioHyperLink {
   overflow-wrap: break-word;
 }
@@ -108,12 +111,15 @@
     float: none;
     direction: ltr;
   }
+
   .marker {
     width: 0%;
   }
+
   .portfolio-textContent {
     width: 60%;
   }
+
   .marker {
     width: 50%;
   }

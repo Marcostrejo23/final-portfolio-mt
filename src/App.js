@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <Routes />;
+      <Routes />
       <Footer />
     </Router>
   );
