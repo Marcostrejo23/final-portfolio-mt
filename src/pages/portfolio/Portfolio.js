@@ -3,7 +3,7 @@ import password from "../../images/PasswordGenerator.png";
 import weather from "../../images/WeatherDashboard.png";
 import WorkDay from "../../images/WorkDayScheduler.png";
 import Todolist from "../../images/ToDolist.png";
-import "../portfolio/styles.css";
+import "./styles.css";
 
 const Portfolio = () => {
   return (
@@ -109,8 +109,7 @@ const Portfolio = () => {
               ></img>
             </div>
             <div className="portfolio-textContent">
-              <p> Workday Scheduler
-              </p>
+              <p> Workday Scheduler</p>
               <p>
                 Deployed Link:{" "}
                 <a
@@ -154,7 +153,7 @@ const Portfolio = () => {
               ></img>
             </div>
             <div className="portfolio-textContent">
-          <p>Password Generator</p>
+              <p>Password Generator</p>
               <p>
                 Deployed Link:{" "}
                 <a
