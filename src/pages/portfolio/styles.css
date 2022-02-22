@@ -15,7 +15,7 @@
   content: "";
   top: 0;
   left: 50%;
-  margin-left: -0, 0625rem;
+  margin-left: -0.0625rem;
   width: 0.125rem;
   height: 100%;
   background: var(--primary-grey);
@@ -89,42 +89,21 @@
   overflow-wrap: break-word;
 }
 
-/*-------MEDIA---------*/
-
 @media (max-width: 768px) {
-  .container-experience-wrapper {
-    padding-left: 0;
-  }
-
-  .container-experience-wrapper::before {
-    left: 0.5rem;
-    margin-bottom: 1.875rem;
-  }
-
   .timeline-block-right {
-    float: none;
     width: 100%;
   }
 
   .timeline-block-left {
-    float: none;
     direction: ltr;
-  }
-
-  .marker {
-    width: 0%;
-  }
-
-  .portfolio-textContent {
-    width: 60%;
-  }
-
-  .marker {
-    width: 50%;
-  }
-
-  .timeline-block-right {
-    float: none;
     width: 100%;
+  }
+
+  .experience-wrapper::before {
+    left: 0.5rem;
+  }
+
+  .marker {
+    margin-left: -0.125rem;
   }
 }
