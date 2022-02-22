@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 
-import './styles.css';
+import "./styles.css";
 
 const Contact = () => {
   const [SuccessfulMessage, setSuccessfulMessage] = useState("");
@@ -98,10 +98,7 @@ const Contact = () => {
                   placeholder="Description"
                   name="description"
                 ></textarea>
-                <button
-                  className="btn btn-outline-primary"
-                  type="submit"
-                >
+                <button className="btn btn-outline-primary" type="submit">
                   Reach out
                 </button>
               </div>

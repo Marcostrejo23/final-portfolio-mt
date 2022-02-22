@@ -1,11 +1,8 @@
-/*-------Footer---------*/
-
 .icon-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .icon {
-    padding: 0.4rem;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  padding: 0.4rem;
+}
