@@ -4,8 +4,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Routes from "./Routes";
-import Navbar from "../src/components/navbar/Navbar";
-import Footer from "../src/components/footer/Footer";
+import Navbar from "../src/Components/navbar/Navbar";
+import Footer from "../src/Components/footer/Footer";
 
 const App = () => {
   return (
