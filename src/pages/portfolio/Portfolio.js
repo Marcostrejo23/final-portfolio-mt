@@ -29,11 +29,11 @@ const Portfolio = () => {
                   Deployed Link:{" "}
                   <a
                     className="portfolioHyperLink"
-                    href="https://marcostrejo23.github.io/todo-list-v1/"
+                    href="https://marcostrejotodolist.herokuapp.com/ "
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    https://marcostrejo23.github.io/todo-list-v1/
+                    https://marcostrejotodolist.herokuapp.com/
                   </a>
                 </p>
                 <p>
