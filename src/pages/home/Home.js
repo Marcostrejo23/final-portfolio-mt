@@ -13,11 +13,10 @@ const Home = () => {
           loop
         />
         <p className="home-text">
-          Hello! My name is Marcos Trejo and I'm a beginner Javascript
-          Developer. Here you will find examples of my work, about me, my
-          resume, and how to reach out. If you think I am a good fit for your
-          company or have any questions about my work, shoot me an email at
-          Marcostrejo23@gmail.com.
+          Hello! My name is Marcos Trejo and I'm a Javascript Developer. Here
+          you will find examples of my work, about me, my resume, and how to
+          reach out. If you think I am a good fit for your company or have any
+          questions about my work, shoot me an email at Marcostrejo23@gmail.com.
         </p>
         <p className="home-text">
           VS Code, HTML5, CS3, React.js, graph.ql, nodejs, sql, mysql, mongodb,
